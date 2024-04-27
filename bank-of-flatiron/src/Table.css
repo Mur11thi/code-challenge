@@ -1,10 +1,10 @@
 
 /* justify-content: center;
  width: 800px;    */
- /* th{
- padding-top: 30px;
+ th{
+ padding-top: 10px;
  }
- .date{
+ /* .date{
 padding-left: 50px;
 padding-right: 200px;
  }
@@ -19,3 +19,16 @@ padding-right: 200px;
 .amount{
 padding-left: 80px;
 } */
+table{
+border-collapse: collapse; 
+width: 100%;
+}
+
+
+th {
+  border: 1px solid black;
+}
+
+
+td {
+  border: 1px solid black; }
