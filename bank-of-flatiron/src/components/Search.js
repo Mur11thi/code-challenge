@@ -3,12 +3,13 @@ import '../Search.css'
 function Search(){
  function handleSubmit(e){
 e.preventDefault()
+
 }    
  return(
   <>
-  <form onClick={handleSubmit} >
+  <form>
   <input type="text" placeholder="Search Your Recent Transactions" className="search"/>
-  <input type="Submit" value="🔎" />
+  <input type="Submit" value="🔎" onSubmit={handleSubmit}/>
   </form>
  </>   
  )

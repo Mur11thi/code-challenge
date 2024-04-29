@@ -4,6 +4,7 @@ import React from 'react';
 import Search from './Search';
 import AddTransaction from './AddTransaction';
 import Table from './Table';
+import Transaclist from './Transaclist';
 function App() {
   return (
     <>
@@ -12,7 +13,7 @@ function App() {
     </div>
     <Search />
     <AddTransaction/>
-    <Table/>
+    <Table Transaclist={Transaclist}/>
     </>
   );
 }
